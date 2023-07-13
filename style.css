@@ -152,6 +152,7 @@
     background-color:#013f7e;
     position: relative;
     box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+    margin-bottom: -160px;
 }
 .subscribe h3, .subscribe p{
     color:#fff;
@@ -201,4 +202,24 @@
 #footer p{
     font-size: 12px;
     text-align: left;
+}
+#footer .city{
+    margin-left: 37px;
+}
+#footer .fa{
+    padding-right: 20px;
+    font-size: 15px;
+}
+#footer .fa-brands{
+    padding-right: 20px;
+    font-size: 15px;
+}
+#footer .copyright{
+    margin-bottom: -80px;
+    text-align: center;
+    font-size: 15px;
+}
+#footer .fa-heart{
+    color:red;
+    font-size: 17px;
 }
