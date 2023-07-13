@@ -3,29 +3,254 @@
     <head>
         <title> Fitness Website</title>
         <link rel="stylesheet" href="style.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" 
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     </head>
     <body>
-        <!-- Header-->
-        <section id="header">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <!-- Header-->
+      <section id="header">
+            <nav class="navbar">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#">Navbar</a>
+                  <a class="navbar-brand" href="#"><img src="images/logo-white.png"></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <i class="fa-solid fa-bars" style="color: #f7f7f8;"></i>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                      <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      <a class="nav-link" href="#">Features</a>
-                      <a class="nav-link" href="#">Pricing</a>
-                      <a class="nav-link disabled">Disabled</a>
+                      <a class="nav-link" href="#">HOME</a>
+                      <a class="nav-link" href="#">ABOUT US</a>
+                      <a class="nav-link" href="#">SERVICES</a>
+                      <a class="nav-link" href="#">FEATURES</a>
+                      <a class="nav-link" href="#">REVIEWS</a>
+                      <a class="nav-link" href="#">CONTACT US</a>
                     </div>
                   </div>
                 </div>
               </nav>
-        </section>
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+      </section>
+      <!---------Welcome Text--------->
+      <section id="welcome">
+        <div class="container">
+          <div class="welcome text-center">
+            <h1>Website with animation</h1>
+            <p>Website with HTML, CSS and Bootstrap</p>
+            <button type="submit" class="btn home-btn">Subcribe</button>
+          </div>
+        </div>
+      </section>
+      <!-------- About Us------------>
+      <section id="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 text-center">
+              <img src="images/run.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-6 text-justify">
+              <h3>Knowladge, Skills & Hard Work</h3>
+              <p>Lorem ipsum, or lipsum as it is sometimes known, 
+                is dummy text used in laying out print, graphic or web 
+                designs. The passage is attributed to an unknown 
+                typesetter in the 15th century who is thought to have 
+                scrambled parts of Cicero's De Finibus Bonorum et Malorum 
+                for use in a type specimen book. </p>
+              <p>Lorem ipsum, or lipsum as it is sometimes known, 
+                is dummy text used in laying out print, graphic or web 
+                designs. The passage is attributed to an unknown typesetter
+                in the 15th century who is thought to have scrambled parts
+                of Cicero's De Finibus Bonorum et Malorum for use in a 
+                type specimen book. </p>
+            </div>
+            <div class="col-md-6 text-justify">
+              <h3>Hard Work in Silence</h3>
+              <p>Lorem ipsum, or lipsum as it is sometimes known, is
+                dummy text used in laying out print, graphic or web 
+                designs. The passage is attributed to an unknown 
+                typesetter in the 15th century who is thought to have 
+                scrambled parts of Cicero's De Finibus Bonorum et 
+                Malorum for use in a type specimen book. </p>
+              <p>Lorem ipsum, or lipsum as it is sometimes known, 
+                is dummy text used in laying out print, graphic or 
+                web designs. The passage is attributed to an unknown 
+                typesetter in the 15th century who is thought to have 
+                scrambled parts of Cicero's De Finibus Bonorum et 
+                Malorum for use in a type specimen book. </p>
+            </div>
+            <div class="col-md-6">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" width="640" height="415" 
+                src="https://www.youtube.com/embed/zA5oxYvIx0c" 
+                title="YouTube video player" frameborder="0"
+                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+              </div>
+          </div>
+        </div>
+      </section>
+      <!-------Services----------->
+      <section id="services">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="images/mma.png">
+              <h4>Mixed Material Arts</h4>
+              <p>Lorem ipsum, or lipsum as it is sometimes known, 
+              is dummy text used in laying out print, graphic or 
+              web designs. The passage is attributed to an unknown 
+              typesetter in the 15th century who is thought to have 
+              scrambled parts of Cicero's De Finibus Bonorum et 
+              Malorum for use in a type specimen book. </p>
+            </div>
+            <div class="col-md-4">
+              <img src="images/gym.png">
+              <h4>Gym</h4>
+              <p>Lorem ipsum, or lipsum as it is sometimes known, 
+              is dummy text used in laying out print, graphic or 
+              web designs. The passage is attributed to an unknown 
+              typesetter in the 15th century who is thought to have 
+              scrambled parts of Cicero's De Finibus Bonorum et 
+              Malorum for use in a type specimen book. </p>
+            </div>
+            <div class="col-md-4">
+              <img src="images/boxing.png">
+              <h4>Boxing</h4>
+              <p>Lorem ipsum, or lipsum as it is sometimes known, 
+              is dummy text used in laying out print, graphic or 
+              web designs. The passage is attributed to an unknown 
+              typesetter in the 15th century who is thought to have 
+              scrambled parts of Cicero's De Finibus Bonorum et 
+              Malorum for use in a type specimen book. </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!------------ Features------------->
+      <section id="features">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <img src="images/feature.png" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+              <div class="feature-box">
+                <div class="feature-left">
+                  <i class="fa fa-trophy"></i>
+                </div>
+                <div class="feature-right">
+                  <h3>Certified Trainers</h3>
+                  <p>Lorem ipsum, or lipsum as it is sometimes known, 
+                    is dummy text used in laying out print, graphic or 
+                    web designs. </p>
+                </div>
+              </div>
+              <div class="feature-box">
+                <div class="feature-left">
+                  <i class="fa fa-heartbeat"></i>
+                </div>
+                <div class="feature-right">
+                  <h3>Free Consultation</h3>
+                  <p>Lorem ipsum, or lipsum as it is sometimes known, 
+                    is dummy text used in laying out print, graphic or 
+                    web designs. </p>
+                </div>
+              </div>
+              <div class="feature-box">
+                <div class="feature-left">
+                  <i class="fa fa-clock" style="color: #f5f7f9;"></i>
+                </div>
+                <div class="feature-right">
+                  <h3>Flexible time</h3>
+                  <p>Lorem ipsum, or lipsum as it is sometimes known, 
+                    is dummy text used in laying out print, graphic or 
+                    web designs. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!---------------Testimonials------------>
+      <section id="testimonials">
+        <div class="container">
+          <h1 class="text-center">Meet Our Users</h1>
+          <p class="text-center">Lorem ipsum, or lipsum as it is sometimes known, 
+            is dummy text used in laying out print,<br> graphic or 
+            web designs. </p>
+          <div class="row">
+            <div class="col-md-4">
+              <p class="rewiev">Lorem ipsum, or lipsum as it is sometimes known, 
+                is dummy text used in laying out print, graphic or 
+                web designs.<br>
+                <i class="fa-brands fa-twitter"></i><span>@username</span></p>
+                <img src="images/user1.jpg">
+            </div>
+            <div class="col-md-4 middle">
+              <p class="rewiev">Lorem ipsum, or lipsum as it is sometimes known, 
+                is dummy text used in laying out print, graphic or 
+                web designs.<br>
+                <i class="fa-brands fa-twitter"></i><span>@username</span></p>
+                <img src="images/user2.jpg">
+            </div>
+            <div class="col-md-4">
+              <p class="rewiev">Lorem ipsum, or lipsum as it is sometimes known, 
+                is dummy text used in laying out print, graphic or 
+                web designs.<br>
+                <i class="fa-brands fa-twitter"></i><span>@username</span></p>
+                <img src="images/user3.jpg">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-------------Subscribe-------------->
+      <section id="subscribe">
+        <div class="container">
+          <div class="subscribe text-center">
+            <h3>Join For Free Trail Now!</h3>
+            <p>Subscribe Our Newsletter and Get 30 Days Free Trail</p>
+            <div class="input-group">
+              <input type="email" class="form-control" placeholder="Email">
+              <div class="input-group-append">
+                <button type="submit" class="input-group-text btn">Subscribe</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!---------Footer section------->
+      <section id="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <img src="images/logo.png" class="footer-logo" alt="footer logo">
+              <p>Lorem ipsum, or lipsum as it is sometimes known, 
+                is dummy text used in laying out print, graphic or 
+                web designs. </p>
+            </div>
+            <div class="col-md-3">
+              <h1>Features</h1>
+              <p>Certified Trainers</p>
+              <p>Free Consultation</p>
+              <p>Flexible time</p>
+              <p>30 Days Free Trail</p>
+            </div>
+            <div class="col-md-3">
+              <h1>Quick Contact</h1>
+              <p><i class="fa-brands fa-phone-square"></i>+1 1234567788</p>
+              <p><i class="fa-brands fa-envelope"></i>contact@website.com</p>
+              <p><i class="fa-brands fa-home"></i>xyz Road, xyz Complex</p>
+              <p><i class="city"></i>City, Contry</p>
+            </div>
+            <div class="col-md-3">
+              <h1>Follow Us On</h1>
+              <p><i class="fa-brands fa-facebook-official"></i>Facebook</p>
+              <p><i class="fa-brands fa-youtube-play"></i>YouTube</p>
+              <p><i class="fa-brands fa-linkedin"></i>Linkedin</p>
+              <p><i class="fa-brands fa-twitter"></i>Twitter</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     </body>
 </html>
